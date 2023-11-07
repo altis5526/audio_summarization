@@ -8,7 +8,7 @@ from summarize import summarize
 if __name__ == "__main__":
     arg = argparse.ArgumentParser()
     arg.add_argument("--audio", type=str, default="test.m4a")
-    arg.add_argment("--text", type=str, default="test.txt")
+    arg.add_argument("--text", type=str, default="test.txt")
     args = arg.parse_args()
 
     api_key = "YOUR_API_KEY"
