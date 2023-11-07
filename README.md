@@ -1,5 +1,9 @@
 # Audio_Summarizaiton
 
+## Install dependencies
+```
+pip install -r requirements.txt
+
 ## Usage
 ```
 python main.py --audio "text.m4a" --text "test.txt"
